@@ -5,9 +5,13 @@ package com.shen.guaniu;
  */
 public class Hello {
 
-    public void haha(){
+    public static void haha(){
         System.out.println("fdsafsadfsdddfdddd");
-        System.out.println("ytytddy");
+        System.out.println("ytytddyddd");
+    }
+
+    public static void main(String[] args) {
+        Hello.haha();
     }
 
 }
