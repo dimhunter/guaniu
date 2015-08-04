@@ -6,7 +6,8 @@ package com.shen.guaniu;
 public class Hello {
 
     public void haha(){
-        System.out.println("fdsafsadfsfdddd"ff);
+        System.out.println("fdsafsadfsdddfdddd");
+        System.out.println("ytytddy");
     }
 
 }
