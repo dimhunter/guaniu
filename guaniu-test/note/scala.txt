@@ -26,6 +26,9 @@
         BigInt("500")  其实就是  BigInt.apply("500")   的简写,用字符串产出一个新的BigInt对象，不需要new。
 
 
+        fdsaf
+
+
 
 
 
