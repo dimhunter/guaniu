@@ -7,7 +7,7 @@ public class Hello {
 
     public static void haha(){
         System.out.println("fdsafsadfsdddfdddd");
-        System.out.println("ytytddyddd");
+        System.out.println("ytytddydddddd");
     }
 
     public static void main(String[] args) {
