@@ -26,28 +26,16 @@
         BigInt("500")  其实就是  BigInt.apply("500")   的简写,用字符串产出一个新的BigInt对象，不需要new。
 
 
-    scala 没有switch，但有强大的多的模式匹配。现阶段，用一系列if就好。
-
-    scala 中，{}块包含一系列表达式，其结果也是一个表达式，块中最后一个表达式的值就是块的值。
+        fdsaf
 
 
-循环：
-    scala有while和do循环，但是没有直接和java对应的for(初始化变量;检查变量是否满足;更新变量)循环，而是
-        for(变量 <- 表达式) 这样的循环。
-    scala并没有提供break和continue来退出循环，使用boolean变量或嵌套函数的return或Breaks对象的break方法来实现。
 
-
-scala的异常和java一样，必须是java.lang.Throwable的子类，不过，与java不同，scala没有“受检”异常(比如IO等必须处理的非runtimeexception)。你不需要
-    声明说函数或方法可能会抛出某种异常。
 
 
 2. 函数定义
     def 函数名(参数列表) : 返回值类型 = {
         ......
     }
-
-    要定义函数，需给出函数名，参数和函数体。不过，只要函数不是递归，就不需要指定返回类型，scala会根据=右边推出返回类型。
-    对于递归函数，必须指定返回类型。
 
 3. 类型参数化数组 array
     列表 list
