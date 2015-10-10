@@ -1,5 +1,3 @@
-package com.shen.guaniu
-
 import org.junit.Test
 
 /**

@@ -1,4 +1,4 @@
-package com.shen.guaniu
+package com.shen.guaniu.hello
 
 import java.util.Date
 
@@ -10,7 +10,7 @@ import java.util.Date
  * 创建元组非常简单，将值放入一组圆括号内，就好象调用一个方法调用一样。
  * 提取这些值只需要调用 “_n” 方法，其中 n 表示相关的元组元素的位置参数： _1 表示第一位， _2 表示第二位，依此类推。
  */
-class TupleTest {
+object TupleTest {
 
   def main(args: Array[String]) {
 
@@ -24,6 +24,5 @@ class TupleTest {
     println(tuple._2)
 
   }
-
 
 }
