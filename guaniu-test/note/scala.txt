@@ -55,10 +55,19 @@ scala的异常和java一样，必须是java.lang.Throwable的子类，不过，�
     数组循环 用for循环
 
 
-类型参数化数组 array
     列表 list
     元组 tuple （包含不同类型元素）
     set和map
+
+
+4. 类
+    类中字段自动带有getter和setter方法
+    类中方法就是def默认都是公有的，public的
+    scala的类并不声明为public，scala源文件可以包含多个类，源文件名不必与类名相同。所有这些类都具有公有可见性。
+
+    ！！！嵌套类，看书上，暂未整理。
+
+5. 
 
 
 
