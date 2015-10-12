@@ -67,7 +67,22 @@ scala的异常和java一样，必须是java.lang.Throwable的子类，不过，�
 
     ！！！嵌套类，看书上，暂未整理。
 
-5. 
+5. 对象（就是scala中的单例object）
+    单例对象：scala没有静态方法或静态字段，用object来实现。
+        object用来作为单例或存放工具方法或常量的地方
+        高效的共享单个不可变实例
+
+    伴生对象
+        java中，通常会用到既有实例方法又有静态方法的类，scala中，可以通过类(定义的class)和与类同名的伴生对象(定义的object)来达到同样目的。
+        类class和他的伴生对象object可以相互访问私有特性，它们必须存在同一个源文件中。
+
+    apply方法
+        通常会在object中定义apply方法，apply方法会在如下形式表达式时，被调用。
+            ObjectName(参数1，参数2，...,参数N),有了apply方法，就可以不用new来构造对象了
+        一个object中apply方法可以有多个，参数不同即可
+
+6. 枚举
+    scala没有枚举，看书6.6节，未整理。
 
 
 
