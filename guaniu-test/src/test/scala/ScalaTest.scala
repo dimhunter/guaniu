@@ -3,8 +3,7 @@ import org.junit.Test
 /**
  * Created by shenluguo on 2015/7/28.
  */
-class AA {
-
+class ScalaTest {
 
   @Test
   def test(): Unit ={

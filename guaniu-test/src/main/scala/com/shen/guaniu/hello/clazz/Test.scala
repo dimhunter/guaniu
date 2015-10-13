@@ -22,7 +22,12 @@ object Test {
   //caa.sex = "女"
     println(caa.sex)
 
+    //通过主构造器构建对象
     val p = new Person("shen",18)
+    //通过辅助构造器1构建对象,其实辅助构造器最终都会调用主构造器。
+    val p1 = new Person("shen")
+    //通过辅助构造器2构建对象,其实辅助构造器最终都会调用主构造器。
+    val p2 = new Person("shen","130582")
     p.sex = "神"
     p.showinfo()
   }

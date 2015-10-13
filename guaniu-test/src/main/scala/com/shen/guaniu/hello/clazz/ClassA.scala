@@ -50,6 +50,21 @@ class Person(val name:String , val age : Int) {
     println("sex = "+sex)
   }
 
+  //scala可以有任意多的构造器，不过只有一个主构造器，其他都是辅助构造器
+  //辅助构造器名称为this，和java是不同的，不必与类同名
+  //每个辅助构造器必须以一个先前已定义的其他辅助构造器或主构造器调用开始
+  //无论是new主构造器，还是辅助构造器，都可以构建对象
+  //其实辅助构造器最终都会调用主构造器。
+  def this(name : String){
+    this(name,18)//调用主构造器
+    println("辅助构造器1")
+  }
+
+  def this(name:String,idcard:String){
+    this(name)//调用前一个辅助构造器
+    println("辅助构造器2")
+  }
+
 }
 
 
