@@ -1,4 +1,4 @@
-package com.shen.guaniu.hello
+package com.shen.guaniu.hello.basic
 
 /**
  * Created by shenluguo on 2015/7/30.

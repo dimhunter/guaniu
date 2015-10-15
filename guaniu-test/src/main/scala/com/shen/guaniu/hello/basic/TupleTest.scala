@@ -1,4 +1,4 @@
-package com.shen.guaniu.hello
+package com.shen.guaniu.hello.basic
 
 import java.util.Date
 
