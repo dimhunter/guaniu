@@ -2,7 +2,7 @@ package com.shen.guaniu.hello.function
 
 /**
  * 闭包测试？？？？例子不懂
- * Created by shenluguo on 15/10/15.
+ * Created by shenge on 15/10/15.
  */
 object BiBaoTest {
 

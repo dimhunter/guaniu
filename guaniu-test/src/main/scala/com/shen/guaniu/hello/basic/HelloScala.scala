@@ -1,7 +1,7 @@
 package com.shen.guaniu.hello.basic
 
 /**
- * Created by shenluguo on 2015/7/30.
+ * Created by shenge on 2015/7/30.
  */
 object HelloScala {
 

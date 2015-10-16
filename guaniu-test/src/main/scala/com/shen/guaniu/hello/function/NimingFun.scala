@@ -1,7 +1,7 @@
 package com.shen.guaniu.hello.function
 
 /**
- * Created by shenluguo on 15/10/15.
+ * Created by shenge on 15/10/15.
  */
 object NimingFun {
 

@@ -1,3 +1,16 @@
+问题
+
+    2.8 节 ：_* 把参数转换成参数序列？
+    2.12节 ：如果你不需要使用捕获的异常对象，可以使用 _ 来代替变量名？
+
+
+
+
+-------------------------------
+
+
+更改新建的文件或类的头注释模式：settings - Editor - file and code templates - Includes - File Header
+
 1. 变量定义
     var （非final）
     val （final,不可被重新赋值）
