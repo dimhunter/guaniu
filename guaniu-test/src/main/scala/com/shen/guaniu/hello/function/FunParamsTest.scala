@@ -31,5 +31,7 @@ object FunParamsTest {
     //变长参数sum调用，参数个数不受限
     println("sum = "+sum(2,5,4))
     println("sum = "+sum(1,2))
+    //但是变长参数类型必须是Int，因为参数是Int*，否则会报错
+    //println("sum = "+sum(2,5,"fds"))
   }
 }
