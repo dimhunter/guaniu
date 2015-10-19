@@ -1,3 +1,5 @@
+删除maven项目应该从maven-remove里删,不是直接remove,直接remove是删不干净的，重新导入会重命名为2
+
 Ctrl+1在 IDEA中是用的Alt+Enter
 
 选中一块代码，然后抽取成为一个方法的快捷键 : ctrl alt m
