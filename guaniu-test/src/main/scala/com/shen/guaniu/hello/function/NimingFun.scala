@@ -2,6 +2,10 @@ package com.shen.guaniu.hello.function
 
 /**
  * Created by shenge on 15/10/15.
+ *
+ * 匿名函数 用 => 符号来定义，代替了函数名和等号
+ * 格式 ： (参数列表) => 表达式
+ *
  */
 object NimingFun {
 
