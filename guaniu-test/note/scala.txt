@@ -96,7 +96,16 @@ scala的异常和java一样，必须是java.lang.Throwable的子类，不过，�
 
     无论是new主构造器，还是辅助构造器，都可以构建对象
 
-    ！！！嵌套类，看书上，暂未整理。
+    ！！！嵌套类，也就是内部类。看视频很详细。
+        java中，内部类是从属于整个外部类。
+        scala中，内部类是从属于外部类的每个对象的。
+
+
+    抽象类
+    抽象方法
+    抽象字段
+
+
 
 5. 对象（就是scala中的单例object）
     单例对象：scala没有静态方法或静态字段，用object来实现。
@@ -165,3 +174,6 @@ scala的异常和java一样，必须是java.lang.Throwable的子类，不过，�
 
     必须在class的方法def上才能进行@Test的测试，object中不能跑，不能只跑需要测试的方法
     但是main方法必须在object中才能运行，class中不行，class是对象的基础，是可以new的。
+
+
+SAM,和隐式转换，看视频即可，很详细。
