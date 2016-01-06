@@ -24,6 +24,11 @@
                 <artifactId>scala-library</artifactId>
                 <version>${scala-release-version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.scala-lang</groupId>
+                <artifactId>scala-actors</artifactId>
+                <version>${scala-release-version}</version>
+            </dependency>
             <!-- slf4j -->
             <dependency>
                 <groupId>org.slf4j</groupId>
@@ -50,6 +55,6 @@
     </dependencyManagement>
 
     <properties>
-        <scala-release-version>2.11.2</scala-release-version>
+        <scala-release-version>2.10.4</scala-release-version>
     </properties>
 </project>
