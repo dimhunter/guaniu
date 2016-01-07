@@ -1,6 +1,6 @@
 package com.shen.guaniu.file
 
-import java.io.File
+import java.io.{PrintWriter, File}
 
 import scala.io.Source
 
@@ -23,9 +23,18 @@ object FileUtils {
     //用完Source对象后要关闭
     source.close()
 
-      val webFile = Source.fromURL("http://spark.apache.org/")
-      webFile.foreach(print)
-      webFile.close
+    val webFile = Source.fromURL("http://spark.apache.org/")
+    webFile.foreach(print)
+    webFile.close
+
+    //输出到文件
+    val writer = new PrintWriter(new File("scalaFile.txt" ))
+    for (i <- 1 to 100) writer.println(i)
+    writer.close()
+
+    print("Please enter your input : " )
+    val line = readLine
+    println("Thanks, you just typed: " + line)
 
 
   }

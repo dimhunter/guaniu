@@ -1,4 +1,4 @@
-package com.shen.guaniu.basics
+package com.shen.guaniu.basic
 
 /**
  * Author: 	Wang Jialin

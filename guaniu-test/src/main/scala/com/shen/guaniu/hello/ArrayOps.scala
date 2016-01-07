@@ -1,14 +1,8 @@
 package com.shen.guaniu.hello
 
 import scala.collection.mutable.ArrayBuffer
-/**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
- */
+
+
 object ArrayOps {
 
   def main(args: Array[String]): Unit = {
@@ -28,9 +22,7 @@ object ArrayOps {
     b.remove(2, 3)
     b.toArray
     
-    for (i <- 0 until a.length)
-    	println(i + ": " + a(i))
-    
+
     	
     val c = Array(2, 3, 5, 7, 11)
     val result = for (elem <- c) yield 2 * elem
@@ -54,8 +46,13 @@ object ArrayOps {
     val triangle = new Array[Array[Int]](10)
     	for (i <- 0 until triangle.length)
     	triangle(i) = new Array[Int](i + 1)
-    
-    
+
+    for (i <- 0 until a.length)
+      println(i + ": " + a(i))
+
+    for (i <- 0 until e.length)
+      println(i + ": " + e(i))
+
   }
 
 }

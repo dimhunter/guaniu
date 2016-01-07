@@ -1,6 +1,7 @@
-package com.shen.guaniu.basics
+package com.shen.guaniu.basic
 
 import scala.io.Source
+
 /**
  * Author: 	Wang Jialin
  * Contact Information:

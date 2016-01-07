@@ -1,14 +1,5 @@
 package com.shen.guaniu.bestpractice
 
-/**
- * @author Wang Jialin
- * Date��2015/8/2
- * Contact Information:
- * WeChat:	18610086859
- * QQ:		1740415547
- * Email: 18610086859@126.com
- * Tel:	18610086859
- */
 object Assinment_Internals {
 
   def main(args: Array[String]) {

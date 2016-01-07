@@ -18,5 +18,10 @@ object ArrayTest {
     for (i <- 0 until s.length){
       println(i + " = "+ s(i))
     }
+
+    for(ele <- s){
+      println(ele)
+    }
+
   }
 }
