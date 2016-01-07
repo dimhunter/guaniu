@@ -1,12 +1,5 @@
 package com.dt.scala.hello
-/**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
- */
+
 object ScalaInAction {
   println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
    val nums = new Array[Int](10)                  //> nums  : Array[Int] = Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
