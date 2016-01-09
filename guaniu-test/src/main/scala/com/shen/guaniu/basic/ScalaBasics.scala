@@ -1,13 +1,6 @@
-package com.shen.guaniu.hello
+package com.shen.guaniu.basic
 
-/**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
- */
+//第2讲，似乎不重要。
 object ScalaBasics {
 
 //    def looper(x : Long, y : Long) : Long = {

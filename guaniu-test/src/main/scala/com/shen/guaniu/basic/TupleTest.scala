@@ -23,6 +23,27 @@ object TupleTest {
     println(tuple._4)
     println(tuple._2)
 
+    println("============")
+
+    val tuple2 =(1,2,3.14,"Rocky","Spark","Flink")
+    val third = tuple2._3
+    val (first,second,thirda,fourth,fifth,sixth) = tuple2
+    val (f, s, _, _, _,_) = tuple2
+    println(fifth)
+    println(s)
+
+    //partition返回2个集合，一个是大写的所有元素，一个是余下的所有元素
+    println("Rocky Spark".partition(_.isUpper))
+
+    //拉链操作，使用元祖愿意之一是把多个值绑在一起，通常用zip方法来完成。
+    //就是把2个数组的每个元素组成个新的元素。
+    val symbols = Array("[", "-", "]")
+    val counts = Array(2,5,2)
+    val pairs = symbols.zip(counts)
+    println(pairs.toBuffer)
+    //???????
+    for ((x,y) <- pairs) print(x*y)
+
   }
 
 }

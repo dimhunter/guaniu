@@ -54,31 +54,45 @@ object ArrayTest {
     b.toArray
     nums.toBuffer
 
+    println("========================")
 
-    // TODO 未整理 ！！！
+    // 都是生成新的数组，不会影响原数组。
     val c = Array(2, 3, 5, 7, 11)
     val result = for (elem <- c) yield 2 * elem
     println(result + " == "+ result.toBuffer)
-    for (elem <- c if elem % 2 == 0) yield 2 * elem
-    c.filter(_ % 2 == 0).map(2 * _)
+    val cc = for (elem <- c if elem % 2 == 0) yield 2 * elem
+    println(cc + " == "+ cc.toBuffer)
+    //scala中更多的使用 filter和map 这种写法代替 yield 写法
+    val ccc = c.filter(_ % 2 == 0).map(2 * _)
+    println(ccc + " == "+ ccc.toBuffer)
 
-    Array(1, 7, 2, 9).sum
-    ArrayBuffer("Mary", "had", "a", "little", "lamb").max
+    //常用算法，sum，max,sorted等
+    println(Array(1, 7, 2, 9).sum)
+    println(ArrayBuffer("Mary", "had", "a", "little", "lamb").max)
 
+    //sorted默认升序
     val d = ArrayBuffer(1, 7, 2, 9)
     val bSorted = d.sorted
+    println(bSorted)
 
     val e = Array(1, 7, 2, 9)
     scala.util.Sorting.quickSort(e)
+    println(e.toBuffer)
 
-    e.mkString(" and ")
-    d.mkString("<", ",", ">")
+    //mkString 方法指定元素间的分隔符
+    val ee = e.mkString(" and ")
+    println(ee)
+    //指定分隔符，和左右两边的符号
+    val eee = d.mkString("<", ",", ">")
+    println(eee)
 
-    val matrix = Array.ofDim[Double](3, 4)
-    matrix(2)(1) = 42
-    val triangle = new Array[Array[Int]](10)
-    for (i <- 0 until triangle.length)
-      triangle(i) = new Array[Int](i + 1)
+    //创建矩阵？？？第五讲最后，没看明白。
+//    val matrix = Array.ofDim[Double](3, 4)
+//    matrix(2)(1) = 42
+//    println(matrix)
+//    val triangle = new Array[Array[Int]](10)
+//    for (i <- 0 until triangle.length)
+//      triangle(i) = new Array[Int](i + 1)
 
   }
 }

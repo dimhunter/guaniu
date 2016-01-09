@@ -1,6 +1,6 @@
-package com.shen.guaniu.hello.basic
+package com.shen.guaniu.basic
 
-import java.io.{InputStream, IOException}
+import java.io.InputStream
 import java.net.URL
 
 import scala.xml.MalformedAttributeException

@@ -1,4 +1,4 @@
-package com.shen.guaniu.hello.basic
+package com.shen.guaniu.basic
 
 /**
  * Created by shenge on 15/12/6.
