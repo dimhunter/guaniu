@@ -30,5 +30,19 @@ object Test {
     val p2 = new Person("shen","130582")
     p.sex = "神"
     p.showinfo()
+
+    //会报错，因为该构造器定义成private了，只能用其他构造器
+//    val tc = new Teacher("Spark", 5)
+//    println(" : " + tc.age)
+
+    val tc2 = new Teacher("Spark", 5 , "male")
+    println(" : " + tc2.age)
+
+    val outer1 = new Outer("Spark")
+    val outer2 = new Outer("Hadoop")
+    val inner1 = new outer1.Inner("Scala")
+    val inner2 = new outer2.Inner("Java")
+    inner1.foo(inner1);
+    inner2.foo(inner2);
   }
 }

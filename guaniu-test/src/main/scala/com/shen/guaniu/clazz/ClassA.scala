@@ -67,4 +67,24 @@ class Person(val name:String , val age : Int) {
 
 }
 
+//如果默认构造器加了private，那么new这个对象的时候就不能用这个构造器了，只能用其他不是private的来new。
+class Teacher private (val name : String, val age : Int){
+  println("This is the primary constructor!!!")
+  var gender : String = _
+  println(gender)
+  //辅助构造器
+  def this(name : String, age : Int, gender : String){
+    this(name, age)
 
+    this.gender = gender
+  }
+}
+
+//内部类，看视频很详细，书上未整理！！！
+class Outer(val name: String) { outer =>
+  class Inner(val name: String){
+    def foo(b:Inner) = println("Outer: " + outer.name +
+      " Inner: " + b.name)
+  }
+
+}
