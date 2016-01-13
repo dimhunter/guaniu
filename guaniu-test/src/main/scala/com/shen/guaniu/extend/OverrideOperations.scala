@@ -1,14 +1,6 @@
-package com.shen.guaniu.oop
+package com.shen.guaniu.extend
 
-/**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
- */
-class OverrideOperations 
+class OverrideOperations
 
 class Person1(val name : String, var age : Int){
   println("The primary constructor of Person")

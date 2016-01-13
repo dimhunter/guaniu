@@ -1,16 +1,9 @@
-package com.shen.guaniu.oop
+package com.shen.guaniu.clazz
 
-/**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
- */
 class AbstractClassOps{
 	var id : Int = _
 }
+
 abstract class SuperTeacher(val name : String){
   var id : Int
   var age : Int
@@ -18,7 +11,7 @@ abstract class SuperTeacher(val name : String){
 }
 
 class TeacherForMaths(name : String) extends SuperTeacher(name){
-  
+  //重写抽象字段和抽象方法可以写override，也可以不写。为了形象，一般写上override。
   override var id = name.hashCode()
   override var age = 29
   override def teach{
