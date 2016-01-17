@@ -1,12 +1,7 @@
 package com.shen.guaniu.function
 
 /**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
+ * 偏函数，未整理，视频和书上的不一样，要再看一遍视频
  */
 object PartialAppliedFuntion {
 

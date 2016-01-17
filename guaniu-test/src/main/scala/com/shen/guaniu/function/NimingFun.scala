@@ -15,8 +15,23 @@ object NimingFun {
   //也可以将函数存到变量中，这就跟用def定义是一样的。def cheng4(x:Double) = 4*x
   val cheng4 = (x:Double) => 4*x
 
-
   //也可以将匿名函数直接传递给另一个函数，这里告诉map方法，将每个元素乘2
   Array(1,2,5).map((x:Int) => 2*x)
+
+  def main(args: Array[String]) {
+      val someNumbers = List(-11, -10, -5, 0, 5, 10)
+      someNumbers.foreach((x: Int) => print (x))
+      println
+      someNumbers.filter((x: Int) => x > 0).foreach((x: Int) => print (x))
+      println
+      someNumbers.filter((x) => x > 0).foreach((x: Int) => print (x))
+      println
+      someNumbers.filter(x => x > 0).foreach((x: Int) => print (x))
+      println
+      someNumbers.filter(_ > 0).foreach((x: Int) => print (x))
+      println
+      val f = (_: Int) + (_: Int)
+      println(f(5, 10))
+  }
 
 }

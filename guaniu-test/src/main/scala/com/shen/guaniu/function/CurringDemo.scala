@@ -1,14 +1,9 @@
 package com.shen.guaniu.function
 
 /**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
+ * 柯里化：把接收多个函数的参数，变为新的一个接收一个参数的函数。
  */
-object Curring {
+object CurringDemo {
 
   def main(args: Array[String]) {
     def multiple(x: Int, y: Int) = x * y
