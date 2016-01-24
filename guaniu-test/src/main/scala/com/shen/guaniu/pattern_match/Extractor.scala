@@ -1,12 +1,9 @@
 package com.shen.guaniu.pattern_match
 
 /**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
+ * 提取器，书上11.8章节
+ * 所谓提取器就是一个带有unapply方法的对象，可以当做伴生对象apply方法的反向操作
+ * apply是构造对象，unapply是从对象中提取值。
  */
 object Extractor {
 

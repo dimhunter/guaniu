@@ -1,17 +1,10 @@
 package com.shen.guaniu.pattern_match
 
-/**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
- */
+
 object Pattern_Match_More {
 
   def main(args: Array[String]) {
-    
+    //类型匹配
     def match_type(t : Any) = t match {
     case p : Int => println("It is Integer")
     case p : String => println("It is String, the content is : " + p)
@@ -22,7 +15,8 @@ object Pattern_Match_More {
     match_type(2)
     match_type("Spark")
     match_type(Map("Scala" -> "Spark"))
-    
+
+    //匹配数组
     def match_array(arr : Any) = arr match {
 	  case Array(0) => println("Array:" + "0") 
 	  case Array(x, y) => println("Array:" + x + " " +y)  
@@ -34,7 +28,7 @@ object Pattern_Match_More {
     match_array(Array(0,1))
     match_array(Array(0,1,2,3,4,5))
     
-    
+    //匹配列表
     def match_list(lst : Any) = lst match {
 	  case 0 :: Nil => println("List:" + "0")
 	  case x :: y :: Nil => println("List:" + x + " " + y)
@@ -46,7 +40,7 @@ object Pattern_Match_More {
     match_list(List(3,4))
     match_list(List(0,1,2,3,4,5))
     
-    
+    //匹配元组
     def match_tuple(tuple : Any) = tuple match {
     case (0, _) => println("Tuple:" + "0")
     case (x, 0) => println("Tuple:" + x )

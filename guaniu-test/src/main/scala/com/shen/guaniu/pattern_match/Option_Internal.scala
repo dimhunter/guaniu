@@ -1,12 +1,8 @@
 package com.shen.guaniu.pattern_match
 
 /**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
+ * Option 就是一个sealed密封类修饰的样例类，看Option源码，就能看到sealed。
+ * 表示那种可能存在，也可能不存在的值。Some存在，None不存在。
  */
 object Option_Internal {
 
