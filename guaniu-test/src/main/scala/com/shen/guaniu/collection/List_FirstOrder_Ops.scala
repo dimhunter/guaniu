@@ -1,13 +1,5 @@
-package com.shen.guaniu.dataset
+package com.shen.guaniu.collection
 
-/**
- * Author: 	Wang Jialin
- * Contact Information:
- * 	WeChat:	18610086859
- *  QQ:		1740415547
- * 	Email: 18610086859@126.com
- *  Tel:	18610086859
- */
 object List_FirstOrder_Ops {
 
   def main(args: Array[String]) {

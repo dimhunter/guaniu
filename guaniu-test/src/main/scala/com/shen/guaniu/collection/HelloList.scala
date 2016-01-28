@@ -1,4 +1,4 @@
-package com.shen.guaniu.dataset
+package com.shen.guaniu.collection
 
 object HelloList {
 
@@ -12,6 +12,7 @@ object HelloList {
     
     println(data.isEmpty)
     println(data.head)
+    println(data.tail)
     println(data.tail.head)
     
     val List(a,b) = bigData
